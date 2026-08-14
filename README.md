@@ -9,13 +9,13 @@ Le projet compare une approche classique de classification EEG (**RLDA**) à deu
 Les interfaces cerveau-ordinateur sont étudiées comme outil de soutien à la réadaptation motrice. Ce projet évalue si des modèles d'apprentissage profond permettent d'améliorer la reconnaissance des intentions de mouvement par rapport aux méthodes de classification EEG classiques, et comment cette performance varie entre un montage à électrodes humides (données existantes) et un montage à électrodes sèches (casque Kaptics).
 
 ## Structure du dépôt
-
+ 
 ```
-├── analyse_eeg_filtre.py       # Prétraitement, filtrage et calcul d'ERD (comparaison brut/filtré)
-├── classification_RLDA.py      # Classification classique : PSD + CSP + LDA régularisé (RLDA)
-├── eegnet_final.py             # Classification par réseau EEGNet (PyTorch)
-└── deepconvnet.py              # Classification par réseau DeepConvNet (PyTorch)
-```
+├── Article BCI/                  # Références bibliographiques et littérature associée
+├── classification_RLDA/          # Classification classique : PSD + CSP + LDA régularisé (RLDA)
+├── classification_EEGnet/        # Classification par réseau EEGNet (PyTorch)
+├── Classification_deepConvnet/   # Classification par réseau DeepConvNet (PyTorch)
+└── README.md
 
 ## Pipeline commun
 
